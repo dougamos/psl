@@ -8913,7 +8913,8 @@ module.exports=[
 "basicserver.io",
 "virtualserver.io",
 "enterprisecloud.nu",
-"mintere.site"
+"mintere.site",
+"watchandlearn.io"
 ]
 },{}],2:[function(require,module,exports){
 /*eslint no-var:0, prefer-arrow-callback: 0, object-shorthand: 0 */

@@ -4,14 +4,14 @@
   "description": "Domain name parser based on the Public Suffix List",
   "repository": {
     "type": "git",
-    "url": "git@github.com:lupomontero/psl.git"
+    "url": "git@github.com:dougamos/psl.git"
   },
   "main": "index.js",
   "scripts": {
     "pretest": "eslint .",
     "test": "mocha test && karma start ./karma.conf.js --single-run",
     "watch": "mocha test --watch",
-    "prebuild": "./scripts/update-rules.js",
+    "prebuild": "#./scripts/update-rules.js",
     "build": "browserify ./index.js --standalone=psl > ./dist/psl.js",
     "postbuild": "cat ./dist/psl.js | uglifyjs -c -m > ./dist/psl.min.js",
     "commit-and-pr": "commit-and-pr",
