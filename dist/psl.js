@@ -8914,7 +8914,8 @@ module.exports=[
 "virtualserver.io",
 "enterprisecloud.nu",
 "mintere.site",
-"watchandlearn.io"
+"watchandlearn.io",
+"eventanywhere.co.uk"
 ]
 },{}],2:[function(require,module,exports){
 /*eslint no-var:0, prefer-arrow-callback: 0, object-shorthand: 0 */
